@@ -1,0 +1,32 @@
+ul{
+	line-height: 20px;
+	text-align: left;
+	list-style-type: none;
+}
+
+li{
+	display: flex;
+	margin-left: 30px;
+}
+
+a{
+	margin-right: 50px;
+	margin-left: 50px;
+	color: black;
+	text-decoration: none;
+	font-size: 50px;
+	font-family: 'Roboto Condensed', sans-serif;
+	line-height: 2.0;
+}
+
+a:hover{
+	color: #295324;
+	text-decoration: none;
+}
+
+form{
+	width: 600px;
+}
+
+
+
