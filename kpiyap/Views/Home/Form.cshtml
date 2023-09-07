@@ -1,0 +1,63 @@
+﻿@{
+    ViewData["Title"] = "RACAR - РЕГИСТРАЦИЯ";
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>RACAR</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script type="text/javascript" src='https://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.3.min.js'></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="js/landio.min.js"></script>
+    <link rel="stylesheet" href="~/css/form.css">
+</head>
+<body>
+    <div id="MyPopup" class="modal fade" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" style="color: black;">УВЕДОМЛЕНИЕ</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h6 id="lblError" style="color: black;"></h6>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="login-page">
+        <div class="form">
+            <form class="login-form" method="post" asp-action="Form" asp-controller="Home">
+                <input type="text" placeholder="Email" name="email"/>
+                <input type="password" placeholder="Пароль" name="pass"/>
+                <input type="password" placeholder="Подтвердите пароль" name="repass"/>
+                <button>Зарегистрироваться</button>
+                <p class="message">Уже зарегистированы? <a asp-controller="Home" asp-action="Auth">Войти в аккаунт</a></p>
+            </form>
+        </div>
+    </div>
+    <script>$('.message a').click(function () {
+            $('form').animate({
+                height: "toggle",
+                opacity: "toggle"
+            }, "slow");
+        });</script>
+    @if (ViewBag.Message != null)
+    {
+        <script type="text/javascript">
+            window.onload = function () {
+                document.querySelector("#lblError").innerHTML = '@Html.Raw(ViewBag.Message)';
+                $("#MyPopup").modal("show");
+            };
+        </script>
+    }
+</body>
+</html>
+

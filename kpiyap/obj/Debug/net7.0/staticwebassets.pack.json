@@ -1,0 +1,421 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/anastasia/Projects/kpiyap/kpiyap/obj/Debug/net7.0/scopedcss/projectbundle/kpiyap.bundle.scp.css",
+      "PackagePath": "staticwebassets/kpiyap.bundle.scp.css"
+    },
+    {
+      "Id": "/Users/anastasia/Projects/kpiyap/kpiyap/wwwroot/.DS_Store",
+      "PackagePath": "staticwebassets/.DS_Store"
+    },
+    {
+      "Id": "/Users/anastasia/Projects/kpiyap/kpiyap/wwwroot/css/adapt.css",
+      "PackagePath": "staticwebassets/css/adapt.css"
+    },
+    {
+      "Id": "/Users/anastasia/Projects/kpiyap/kpiyap/wwwroot/css/contact.css",
+      "PackagePath": "staticwebassets/css/contact.css"
+    },
+    {
+      "Id": "/Users/anastasia/Projects/kpiyap/kpiyap/wwwroot/css/form.css",
+      "PackagePath": "staticwebassets/css/form.css"
+    },
+    {
+      "Id": "/Users/anastasia/Projects/kpiyap/kpiyap/wwwroot/css/frt.css",
+      "PackagePath": "staticwebassets/css/frt.css"
+    },
+    {
+      "Id": "/Users/anastasia/Projects/kpiyap/kpiyap/wwwroot/css/kabinet.css",
+      "PackagePath": "staticwebassets/css/kabinet.css"
+    },
+    {
+      "Id": "/Users/anastasia/Projects/kpiyap/kpiyap/wwwroot/css/models.css",
+      "PackagePath": "staticwebassets/css/models.css"
+    },
+    {
+      "Id": "/Users/anastasia/Projects/kpiyap/kpiyap/wwwroot/css/normalize.min.css",
+      "PackagePath": "staticwebassets/css/normalize.min.css"
+    },
+    {
+      "Id": "/Users/anastasia/Projects/kpiyap/kpiyap/wwwroot/css/site.css",
+      "PackagePath": "staticwebassets/css/site.css"
+    },
+    {
+      "Id": "/Users/anastasia/Projects/kpiyap/kpiyap/wwwroot/css/style.css",
+      "PackagePath": "staticwebassets/css/style.css"
+    },
+    {
+      "Id": "/Users/anastasia/Projects/kpiyap/kpiyap/wwwroot/favicon.ico",
+      "PackagePath": "staticwebassets/favicon.ico"
+    },
+    {
+      "Id": "/Users/anastasia/Projects/kpiyap/kpiyap/wwwroot/images/.DS_Store",
+      "PackagePath": "staticwebassets/images/.DS_Store"
+    },
+    {
+      "Id": "/Users/anastasia/Projects/kpiyap/kpiyap/wwwroot/images/427823-bmw-x5-xdrive40i-2020-le-minimum-suffit.jpg",
+      "PackagePath": "staticwebassets/images/427823-bmw-x5-xdrive40i-2020-le-minimum-suffit.jpg"
+    },
+    {
+      "Id": "/Users/anastasia/Projects/kpiyap/kpiyap/wwwroot/images/Group 11.svg",
+      "PackagePath": "staticwebassets/images/Group 11.svg"
+    },
+    {
+      "Id": "/Users/anastasia/Projects/kpiyap/kpiyap/wwwroot/images/Group 4.png",
+      "PackagePath": "staticwebassets/images/Group 4.png"
+    },
+    {
+      "Id": "/Users/anastasia/Projects/kpiyap/kpiyap/wwwroot/images/HD-wallpaper-plumeria-flower-flower-flowers-full-screen-pink-pink-thumbnail 1.png",
+      "PackagePath": "staticwebassets/images/HD-wallpaper-plumeria-flower-flower-flowers-full-screen-pink-pink-thumbnail 1.png"
+    },
+    {
+      "Id": "/Users/anastasia/Projects/kpiyap/kpiyap/wwwroot/images/Lexus NX 300h.jpeg",
+      "PackagePath": "staticwebassets/images/Lexus NX 300h.jpeg"
+    },
+    {
+      "Id": "/Users/anastasia/Projects/kpiyap/kpiyap/wwwroot/images/Lexus-IS.avif",
+      "PackagePath": "staticwebassets/images/Lexus-IS.avif"
+    },
+    {
+      "Id": "/Users/anastasia/Projects/kpiyap/kpiyap/wwwroot/images/RX_Copper_5753B_mid.jpg",
+      "PackagePath": "staticwebassets/images/RX_Copper_5753B_mid.jpg"
+    },
+    {
+      "Id": "/Users/anastasia/Projects/kpiyap/kpiyap/wwwroot/images/audi a4 avant.jpeg",
+      "PackagePath": "staticwebassets/images/audi a4 avant.jpeg"
+    },
+    {
+      "Id": "/Users/anastasia/Projects/kpiyap/kpiyap/wwwroot/images/audi q8 2023.webp",
+      "PackagePath": "staticwebassets/images/audi q8 2023.webp"
+    },
+    {
+      "Id": "/Users/anastasia/Projects/kpiyap/kpiyap/wwwroot/images/audi r8.jpeg",
+      "PackagePath": "staticwebassets/images/audi r8.jpeg"
+    },
+    {
+      "Id": "/Users/anastasia/Projects/kpiyap/kpiyap/wwwroot/images/audi-rs6.webp",
+      "PackagePath": "staticwebassets/images/audi-rs6.webp"
+    },
+    {
+      "Id": "/Users/anastasia/Projects/kpiyap/kpiyap/wwwroot/images/audi.svg",
+      "PackagePath": "staticwebassets/images/audi.svg"
+    },
+    {
+      "Id": "/Users/anastasia/Projects/kpiyap/kpiyap/wwwroot/images/audi_a4.jpeg",
+      "PackagePath": "staticwebassets/images/audi_a4.jpeg"
+    },
+    {
+      "Id": "/Users/anastasia/Projects/kpiyap/kpiyap/wwwroot/images/bmw 3 .jpeg",
+      "PackagePath": "staticwebassets/images/bmw 3 .jpeg"
+    },
+    {
+      "Id": "/Users/anastasia/Projects/kpiyap/kpiyap/wwwroot/images/bmw x5.webp",
+      "PackagePath": "staticwebassets/images/bmw x5.webp"
+    },
+    {
+      "Id": "/Users/anastasia/Projects/kpiyap/kpiyap/wwwroot/images/bmw x7.jpeg",
+      "PackagePath": "staticwebassets/images/bmw x7.jpeg"
+    },
+    {
+      "Id": "/Users/anastasia/Projects/kpiyap/kpiyap/wwwroot/images/bmw-3er-2019.jpeg",
+      "PackagePath": "staticwebassets/images/bmw-3er-2019.jpeg"
+    },
+    {
+      "Id": "/Users/anastasia/Projects/kpiyap/kpiyap/wwwroot/images/bmw-m4.jpg",
+      "PackagePath": "staticwebassets/images/bmw-m4.jpg"
+    },
+    {
+      "Id": "/Users/anastasia/Projects/kpiyap/kpiyap/wwwroot/images/bmw.svg",
+      "PackagePath": "staticwebassets/images/bmw.svg"
+    },
+    {
+      "Id": "/Users/anastasia/Projects/kpiyap/kpiyap/wwwroot/images/ghghg.svg",
+      "PackagePath": "staticwebassets/images/ghghg.svg"
+    },
+    {
+      "Id": "/Users/anastasia/Projects/kpiyap/kpiyap/wwwroot/images/lexus rx.jpeg",
+      "PackagePath": "staticwebassets/images/lexus rx.jpeg"
+    },
+    {
+      "Id": "/Users/anastasia/Projects/kpiyap/kpiyap/wwwroot/images/lexus rx350.jpeg",
+      "PackagePath": "staticwebassets/images/lexus rx350.jpeg"
+    },
+    {
+      "Id": "/Users/anastasia/Projects/kpiyap/kpiyap/wwwroot/images/lexus.svg",
+      "PackagePath": "staticwebassets/images/lexus.svg"
+    },
+    {
+      "Id": "/Users/anastasia/Projects/kpiyap/kpiyap/wwwroot/images/lexus_rx-350f.jpeg",
+      "PackagePath": "staticwebassets/images/lexus_rx-350f.jpeg"
+    },
+    {
+      "Id": "/Users/anastasia/Projects/kpiyap/kpiyap/wwwroot/images/logo.svg",
+      "PackagePath": "staticwebassets/images/logo.svg"
+    },
+    {
+      "Id": "/Users/anastasia/Projects/kpiyap/kpiyap/wwwroot/images/logog.svg",
+      "PackagePath": "staticwebassets/images/logog.svg"
+    },
+    {
+      "Id": "/Users/anastasia/Projects/kpiyap/kpiyap/wwwroot/images/original-5b0c26fa6266dcb8d7d76375ea006336.png",
+      "PackagePath": "staticwebassets/images/original-5b0c26fa6266dcb8d7d76375ea006336.png"
+    },
+    {
+      "Id": "/Users/anastasia/Projects/kpiyap/kpiyap/wwwroot/images/search 1.svg",
+      "PackagePath": "staticwebassets/images/search 1.svg"
+    },
+    {
+      "Id": "/Users/anastasia/Projects/kpiyap/kpiyap/wwwroot/images/Вариант 27-2.psd",
+      "PackagePath": "staticwebassets/images/Вариант 27-2.psd"
+    },
+    {
+      "Id": "/Users/anastasia/Projects/kpiyap/kpiyap/wwwroot/js/site.js",
+      "PackagePath": "staticwebassets/js/site.js"
+    },
+    {
+      "Id": "/Users/anastasia/Projects/kpiyap/kpiyap/wwwroot/lib/bootstrap/LICENSE",
+      "PackagePath": "staticwebassets/lib/bootstrap"
+    },
+    {
+      "Id": "/Users/anastasia/Projects/kpiyap/kpiyap/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css"
+    },
+    {
+      "Id": "/Users/anastasia/Projects/kpiyap/kpiyap/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css.map"
+    },
+    {
+      "Id": "/Users/anastasia/Projects/kpiyap/kpiyap/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css"
+    },
+    {
+      "Id": "/Users/anastasia/Projects/kpiyap/kpiyap/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "/Users/anastasia/Projects/kpiyap/kpiyap/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "/Users/anastasia/Projects/kpiyap/kpiyap/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "/Users/anastasia/Projects/kpiyap/kpiyap/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "/Users/anastasia/Projects/kpiyap/kpiyap/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/anastasia/Projects/kpiyap/kpiyap/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css"
+    },
+    {
+      "Id": "/Users/anastasia/Projects/kpiyap/kpiyap/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "/Users/anastasia/Projects/kpiyap/kpiyap/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "/Users/anastasia/Projects/kpiyap/kpiyap/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "/Users/anastasia/Projects/kpiyap/kpiyap/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "/Users/anastasia/Projects/kpiyap/kpiyap/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "/Users/anastasia/Projects/kpiyap/kpiyap/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "/Users/anastasia/Projects/kpiyap/kpiyap/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/anastasia/Projects/kpiyap/kpiyap/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css"
+    },
+    {
+      "Id": "/Users/anastasia/Projects/kpiyap/kpiyap/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "/Users/anastasia/Projects/kpiyap/kpiyap/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "/Users/anastasia/Projects/kpiyap/kpiyap/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "/Users/anastasia/Projects/kpiyap/kpiyap/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "/Users/anastasia/Projects/kpiyap/kpiyap/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "/Users/anastasia/Projects/kpiyap/kpiyap/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "/Users/anastasia/Projects/kpiyap/kpiyap/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/anastasia/Projects/kpiyap/kpiyap/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css"
+    },
+    {
+      "Id": "/Users/anastasia/Projects/kpiyap/kpiyap/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css.map"
+    },
+    {
+      "Id": "/Users/anastasia/Projects/kpiyap/kpiyap/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/anastasia/Projects/kpiyap/kpiyap/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/Users/anastasia/Projects/kpiyap/kpiyap/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css"
+    },
+    {
+      "Id": "/Users/anastasia/Projects/kpiyap/kpiyap/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "/Users/anastasia/Projects/kpiyap/kpiyap/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "/Users/anastasia/Projects/kpiyap/kpiyap/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/anastasia/Projects/kpiyap/kpiyap/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js"
+    },
+    {
+      "Id": "/Users/anastasia/Projects/kpiyap/kpiyap/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "/Users/anastasia/Projects/kpiyap/kpiyap/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "/Users/anastasia/Projects/kpiyap/kpiyap/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "/Users/anastasia/Projects/kpiyap/kpiyap/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js"
+    },
+    {
+      "Id": "/Users/anastasia/Projects/kpiyap/kpiyap/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js.map"
+    },
+    {
+      "Id": "/Users/anastasia/Projects/kpiyap/kpiyap/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js"
+    },
+    {
+      "Id": "/Users/anastasia/Projects/kpiyap/kpiyap/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "/Users/anastasia/Projects/kpiyap/kpiyap/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js"
+    },
+    {
+      "Id": "/Users/anastasia/Projects/kpiyap/kpiyap/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js.map"
+    },
+    {
+      "Id": "/Users/anastasia/Projects/kpiyap/kpiyap/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js"
+    },
+    {
+      "Id": "/Users/anastasia/Projects/kpiyap/kpiyap/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js.map"
+    },
+    {
+      "Id": "/Users/anastasia/Projects/kpiyap/kpiyap/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/anastasia/Projects/kpiyap/kpiyap/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "/Users/anastasia/Projects/kpiyap/kpiyap/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "/Users/anastasia/Projects/kpiyap/kpiyap/wwwroot/lib/jquery-validation/LICENSE.md",
+      "PackagePath": "staticwebassets/lib/jquery-validation/LICENSE.md"
+    },
+    {
+      "Id": "/Users/anastasia/Projects/kpiyap/kpiyap/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.js"
+    },
+    {
+      "Id": "/Users/anastasia/Projects/kpiyap/kpiyap/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.min.js"
+    },
+    {
+      "Id": "/Users/anastasia/Projects/kpiyap/kpiyap/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.js"
+    },
+    {
+      "Id": "/Users/anastasia/Projects/kpiyap/kpiyap/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.min.js"
+    },
+    {
+      "Id": "/Users/anastasia/Projects/kpiyap/kpiyap/wwwroot/lib/jquery/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/anastasia/Projects/kpiyap/kpiyap/wwwroot/lib/jquery/dist/jquery.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.js"
+    },
+    {
+      "Id": "/Users/anastasia/Projects/kpiyap/kpiyap/wwwroot/lib/jquery/dist/jquery.min.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.js"
+    },
+    {
+      "Id": "/Users/anastasia/Projects/kpiyap/kpiyap/wwwroot/lib/jquery/dist/jquery.min.map",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.build.kpiyap.props",
+      "PackagePath": "build\\kpiyap.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.kpiyap.props",
+      "PackagePath": "buildMultiTargeting\\kpiyap.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.kpiyap.props",
+      "PackagePath": "buildTransitive\\kpiyap.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.kpiyap.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,142 @@
+﻿
+@{
+    ViewData["Title"] = "RACAR - ГЛАВНАЯ";
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="~/css/normalize.min.css">
+    <link rel="stylesheet" href="~/css/style.css">
+</head>
+<body>
+    <header class="header">
+        <a asp-controller="Home" asp-action="Index" class="header__logo"></a>
+        <input type="checkbox" id="burger">
+        <label for="burger">☰</label>
+        <nav class="header__nav">
+            <ul class="header__list">
+                <li class="header__item"><a class="header__link" asp-controller="Home" asp-action="Index" asp-fragment="cont">О НАС</a></li>
+                <li class="header__item"><a class="header__link" asp-controller="Home" asp-action="Models">МОДЕЛИ</a></li>
+                <li class="header__item"><a class="header__link" asp-controller="Home" asp-action="Contact">КОНТАКТЫ</a></li>
+                <li class="header__item"><a class="header__link header__link__gradient" asp-controller="Home" asp-action="Kabinet">КАБИНЕТ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section>
+            <div class="main">
+                <div class="main__text">
+                    <h1 class="main__title">Жизнь - это путешествие<br>Наслаждайся путешествием вместе с RACAR</h1>
+                    <p class="main__desc">Лучшие подержанные автомобили класса: Комфорт, Бизнес и Премиум</p>
+                    <a class="main__btn" href="#cont">подробнее</a>
+                </div>
+            </div>
+            <div class="company">
+                <img class="company__item" src="~/images/bmw.svg" alt="bn">
+                <img class="company__item" src="~/images/audi.svg" alt="bn">
+                <img class="company__item" src="~/images/lexus.svg" alt="bn">
+            </div>
+        </section>
+        <section>
+            <h2 class="title">Популярные модели</h2>
+            <p class="desc">Самые часто покупаемые модели среди представленных моделей</p>
+            <div class="card">
+                <div class="card__item">
+                    <div class="card__cover">
+                        <img class="card__img" src="~/images/audi_a4.jpeg" alt="">
+                    </div>
+                    <div class="card__info">
+                        <div>
+                            <p class="card__nick">Audi A4</p>
+                            <p class="card__avtor">2020,  универсал,  бензин,  2.0,  робот,  черный,  черный,  кожа</p>
+                        </div>
+                        <p class="card__bid">актуальная стоимость<span class="card__price">112 000 Br</span></p>
+                    </div>
+                    <a href="" class="card__link">Связаться с дилером</a>
+                </div>
+                <div class="card__item">
+                    <div class="card__cover">
+                        <img class="card__img" src="~/images/427823-bmw-x5-xdrive40i-2020-le-minimum-suffit.jpg" alt="">
+                    </div>
+                    <div class="card__info">
+                        <div>
+                            <p class="card__nick">BMW X5</p>
+                            <p class="card__avtor">2018, внедорожник, дизель, 4.4, автомат, белый, серый, кожа</p>
+                        </div>
+                        <p class="card__bid">актуальная стоимость<span class="card__price">243 000 Br</span></p>
+                    </div>
+                    <a href="" class="card__link">Связаться с дилером</a>
+                </div>
+                <div class="card__item">
+                    <div class="card__cover">
+                        <img class="card__img" src="~/images/RX_Copper_5753B_mid.jpg" alt="">
+                    </div>
+                    <div class="card__info">
+                        <div>
+                            <p class="card__nick">LEXUS RX 350f</p>
+                            <p class="card__avtor">2023, внедорожник, бензин, 2.4, автомат, медь, черный, кожа</p>
+                        </div>
+                        <p class="card__bid">актуальная стоимость<span class="card__price">138 000 Br</span></p>
+                    </div>
+                    <a href="" class="card__link">Связаться с дилером</a>
+                </div>
+            </div>
+        </section>
+        <section>
+            <a name="cont"><h2 class="title">ИНФОРМАЦИЯ О НАС</h2></a>
+            <div class="faq">
+                <div class="faq__item">
+                    <p style="font-size: 24px; opacity: 0.9; line-height: 1.5;">Компания RACAR была основана в 2013 году, продала более 5000 машин, выигрывала трижды премию "ВСЕМИРНЫЙ АВТОМОБИЛЬ ГОДА" в 2015, 2017 и 2019 году. На территории Беларуси расположено 6 салонов RACAR. Также наши салоны есть на территории РФ и на территории Германии.</p>
+                </div>
+                <div class="faq__item">
+                    <p style="font-size: 24px; opacity: 0.9; line-height: 1.5;">Компаниия специализируется на продажи Lexus, BMW, Audi. Наши машины получали всемирно известные трофеи World Car Design of the Year (BMW X1, BMW 2 Series Coupé и другие). Машины собираются Lexus(Япония: Нагоя), BMW(Россия: Москва), Audi(Германия: Ингольштадт).</p>
+                </div>
+            </div>
+        </section>
+        @*<section>
+            <h2 class="title">ЧАСТО ЗАДАВАЕМЫЕ ВОПРОСЫ</h2>
+            <div class="faq">
+                <div class="faq__item">
+                    <button class="collapsible">Какое состояние автомобилей?</button>
+                    <div class="content">
+                        <p class="content__text">Все предлагаемые автомобили являются новыми, прошедшими предпродажную подготовку и укомплектованными согласно спецификации. </p>
+                    </div>
+                    <button class="collapsible">Какая гарантия предоставляется на автомобили?</button>
+                    <div class="content">
+                        <p class="content__text">На все предлагаемые автомобили распространяется гарантия завода – производителя, которая составляет, в зависимости от гарантийной политики, от 2 до 5 лет.</p>
+                    </div>
+                    <button class="collapsible">Как доставляют авто из Японии, Германии?</button>
+                    <div class="content">
+                        <p class="content__text">Вся приобретенная техника транспортируется по только на автовозах. Перевоз авто осуществляется транспортными компаниями, имеющими аккредитацию на аукционах, с многолетним опытом в области наземных перевозок. Все компании-перевозчики транспортных средств на автовозах имеют страховку на перевозимый груз. Перевозчик несет прямую ответственность за любые повреждения, появившиеся во время перевоза автомобиля. Доставка авто в контейнере по морю осуществляются крупными морскими перевозчиками на судах контейнеровозах. По Вашему желанию мы также можем отправить ТС не в контейнере, а на внутренней палубе корабля (Ro-Ro), если такой способ отправки имеется для данного судна.</p>
+                    </div>
+                </div>
+                <div class="faq__item">
+                    <button class="collapsible">Возможна ли скидка на автомобиль?</button>
+                    <div class="content">
+                        <p class="content__text">Основные скидки предоставляются самими дилерами при проведении акций по стимулированию сбыта. Дополнительные скидки предоставляются при покупке нескольких автомобилей одновременно.</p>
+                    </div>
+                    <button class="collapsible">По каким документам производится оплата?</button>
+                    <div class="content">
+                        <p class="content__text">Для оплаты заключается договор купли – продажи автомобиля с заполненными реквизитами продавца и покупателя.</p>
+                    </div>
+                    <button class="collapsible">Какие документы предоставляются вместе с автомобилем?</button>
+                    <div class="content">
+                        <p class="content__text">При приеме автомобиля Вы получаете на руки следующие документы:<br>- сервисная книжка с отметкой дилера;<br>- ПТС (паспорт транспортного средства);<br>- оригинал договора купли-продажи;<br>- акт приема – передачи автомобиля.<br>Вышеуказанных документов достаточно для постановки автомобиля на учет в ГАИ.</p>
+                    </div>
+                </div>
+            </div>
+        </section>*@
+        <div class="banner">
+            <form asp-controller="Home" asp-action="Index">
+                <h3 class="banner__title">Бесплатная консультация</h3>
+                <input class="banner__link" type="submit" style="border: none;">
+            </form>
+        </div>
+    </div>
+    <script src="scripts/script.js"></script>
+    
+</body>
+</html>

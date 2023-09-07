@@ -1,0 +1,86 @@
+﻿@{
+    ViewData["Title"] = "RACAR - МОДЕЛИ";
+    @using MySql.Data.MySqlClient;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>RACAR - МОДЕЛИ</title>
+    <link rel="stylesheet" href="~/css/normalize.min.css">
+    <link rel="stylesheet" href="~/css/models.css">
+</head>
+<body>
+
+    <header class="header">
+        <a asp-controller="Home" asp-action="Index" class="header__logo"></a>
+        <input type="checkbox" id="burger">
+        <label for="burger">☰</label>
+        <nav class="header__nav">
+            <ul class="header__list">
+                <li class="header__item"><a class="header__link" asp-controller="Home" asp-action="Index" asp-fragment="cont">О НАС</a></li>
+                <li class="header__item"><a class="header__link" asp-controller="Home" asp-action="Models">МОДЕЛИ</a></li>
+                <li class="header__item"><a class="header__link" asp-controller="Home" asp-action="Contact">КОНТАКТЫ</a></li>
+                <li class="header__item"><a class="header__link header__link__gradient" asp-controller="Home" asp-action="Kabinet">КАБИНЕТ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section>
+            <h2 class="title" style="margin-top: 0px;">Представленные модели</h2>
+            <p class="desc">Самые часто покупаемые модели среди представленных моделей</p>
+            <div class="card">
+                @{
+
+                    MySqlConnection connection = new MySqlConnection("server=localhost;port=8889;username=root;password=root;database=avtosalon");
+                    connection.Open();
+                    string query = $"select * from models";
+                    MySqlCommand command = new MySqlCommand(query, connection);
+                    MySqlDataReader reader = command.ExecuteReader();
+                    while (reader.Read())
+                    {
+                        string value2 = reader.GetString(1);
+                        string brend = reader.GetString(2);
+                        string model_auto = reader.GetString(3);
+                        string year = reader.GetString(4);
+                        string type_kuzov = reader.GetString(5);
+                        string type_dvigotel = reader.GetString(6);
+                        string volume_dvigotel = reader.GetString(7);
+                        string kpp = reader.GetString(8);
+                        string color_auto = reader.GetString(9);
+                        string color_salon = reader.GetString(10);
+                        string material_salon = reader.GetString(11);
+                        string price = reader.GetString(12);
+                        <div class="card__item">
+                            <div class="card__cover">
+                                <img class="card__img" src="@value2">
+                            </div>
+                            <div class="card__info">
+                                <div>
+                                    <p class="card__nick">@brend @model_auto</p>
+                                    <p class="card__avtor">@year,  @type_kuzov,  @type_dvigotel,  @volume_dvigotel,  @kpp,  @color_auto,  @color_salon,  @material_salon</p>
+                                </div>
+                                <p class="card__bid">актуальная стоимость<span class="card__price">@price Br</span></p>
+                            </div>
+                            <a asp-controller="Home" asp-action="Index" class="card__link">Связаться с дилером</a>
+                        </div>
+                    }
+                    reader.Close();
+                    connection.Close();
+                }
+            </div>
+        </section>
+        <div class="banner">
+            <form asp-controller="Home" asp-action="Index">
+                <h3 class="banner__title">Бесплатная консультация</h3>
+                <input class="banner__link" type="submit" style="border: none;">
+            </form>
+        </div>
+    </div>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
+

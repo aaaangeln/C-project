@@ -1,0 +1,78 @@
+﻿@{
+    ViewData["Title"] = "RACAR - ЛИЧНЫЙ КАБИНЕТ";
+    @using MySql.Data.MySqlClient;
+}
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>RACAR - ЛИЧНЫЙ КАБИНЕТ</title>
+    <link rel="stylesheet" href="~/css/normalize.min.css">
+    <link rel="stylesheet" href="~/css/kabinet.css">
+    <style>
+        body {
+            width: 1440px;
+            height: 850px;
+        }
+        </style>
+</head>
+
+<body>
+
+    <header class="header">
+        <a asp-controller="Home" asp-action="Index" class="header__logo"></a>
+        <input type="checkbox" id="burger">
+        <label for="burger">☰</label>
+        <nav class="header__nav">
+            <ul class="header__list">
+                <li class="header__item"><a class="header__link" asp-controller="Home" asp-action="Index" asp-fragment="cont">О НАС</a></li>
+                <li class="header__item"><a class="header__link" asp-controller="Home" asp-action="Models">МОДЕЛИ</a></li>
+                <li class="header__item"><a class="header__link" asp-controller="Home" asp-action="Contact">КОНТАКТЫ</a></li>
+                <li class="header__item"><a class="header__link header__link__gradient" asp-controller="Home" asp-action="Kabinet">КАБИНЕТ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    
+
+    <div class="container">
+        <section>
+            <div class="kabinet">
+                <form asp-controller="Home" asp-action="Kabinet">
+                    @{
+                        MySqlConnection connection = new MySqlConnection("server=localhost;port=8889;username=root;password=root;database=avtosalon");
+                        connection.Open();
+                        var symbolCount = HomeController.userMail;
+                        string query = $"select name from users where email='{symbolCount}'";
+                        MySqlCommand command = new MySqlCommand(query, connection);
+                        MySqlDataReader reader = command.ExecuteReader();
+                        while (reader.Read())
+                        {
+                            string value2 = reader.GetString(0);
+                            <p>
+                                Ваше имя:<input type="text" placeholder="Введите ваше ФИО" class="kabinet__name" name="name" value="@value2" style="color: white;">
+                                <button class="kabinet__btn">сохранить</button>
+                            </p>
+                            var symbolCount2 = HomeController.userMail;
+                            <p>Ваша почта: @symbolCount2</p>
+                        }
+                    }
+                </form>
+            </div>
+                        
+
+        </section>
+
+        <div class="banner">
+            <form asp-controller="Home" asp-action="Index">
+                <h3 class="banner__title">Бесплатная консультация</h3>
+                <input class="banner__link" type="submit" style="border: none;">
+            </form>
+        </div>
+    </div>
+    <script src="scripts/script.js"></script>
+</body>
+
+</html>

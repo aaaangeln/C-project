@@ -1,0 +1,68 @@
+﻿@{
+    ViewData["Title"] = "RACAR - КОНТАКТЫ";
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>RACAR - НАШИ КОНТАКТЫ</title>
+    <link rel="stylesheet" href="~/css/normalize.min.css">
+    <link rel="stylesheet" href="~/css/contact.css">
+</head>
+<body>
+    <header class="header">
+        <a asp-controller="Home" asp-action="Index" class="header__logo"></a>
+        <input type="checkbox" id="burger">
+        <label for="burger">☰</label>
+        <nav class="header__nav">
+            <ul class="header__list">
+                <li class="header__item"><a class="header__link" asp-controller="Home" asp-action="Index" asp-fragment="cont">О НАС</a></li>
+                <li class="header__item"><a class="header__link" asp-controller="Home" asp-action="Models">МОДЕЛИ</a></li>
+                <li class="header__item"><a class="header__link" asp-controller="Home" asp-action="Contact">КОНТАКТЫ</a></li>
+                <li class="header__item"><a class="header__link header__link__gradient" asp-controller="Home" asp-action="Kabinet">КАБИНЕТ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section>
+            <div class="contact">
+                <div class="first">
+                    <p class="title__cont">Наши филиалы по Беларуси:</p>
+                    <a href="">
+                        <p class="desc__cont">1) г. Минск, пр-т Независимости, 202/3</p>
+                    </a>
+                    <a href="">
+                        <p class="desc__cont">2) г. Минск, ул. Шаранговича, 22</p>
+                    </a>
+                    <a href="">
+                        <p class="desc__cont">3) г. Брест, ул. 28 июля, 28А</p>
+                    </a>
+                    <a href="">
+                        <p class="desc__cont">4) г. Гомель, ул. Киселёва, 3Б</p>
+                    </a>
+                    <a href="">
+                        <p class="desc__cont">5) Минский р-н, д. Цна, ул. Юбилейная, 4</p>
+                    </a>
+                    <a href="">
+                        <p class="desc__cont">6) Минский р-н, д. Боровая, 2</p>
+                    </a>
+                </div>
+                <div class="second">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2347.7788596870496!2d27.715327477024147!3d53.9534355724716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbc944d46087a9%3A0xc9a93bc0742fcee4!2z0L_RgC4g0J3QtdC30LDQstC40YHQuNC80L7RgdGC0LggMjAyLzMsINCc0LjQvdGB0Lo!5e0!3m2!1sru!2sby!4v1683225235960!5m2!1sru!2sby" width="600" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
+
+        <div class="banner">
+            <form asp-controller="Home" asp-action="Index">
+                <h3 class="banner__title">Бесплатная консультация</h3>
+                <input class="banner__link" type="submit" style="border: none;">
+            </form>
+        </div>
+    </div>
+    <script src="scripts/script.js"></script>
+</body>
+
+</html>
